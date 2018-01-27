@@ -18,4 +18,8 @@ app.post('/rates', function (req, res) {
   res.send(db)
 })
 
+app.get('/', function (req, res) {
+    if (!req.body) return res.sendStatus(400)
+    res.send('Test')
+})
 app.listen(3000, () => console.log( 'Start Listening to 3000'))
