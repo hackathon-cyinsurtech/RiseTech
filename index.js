@@ -20,6 +20,6 @@ app.post('/rates', function (req, res) {
 
 app.get('/', function (req, res) {
     if (!req.body) return res.sendStatus(400)
-    res.send('Test')
+    res.send({'test': 'test'})
 })
 app.listen(3000, () => console.log( 'Start Listening to 3000'))
