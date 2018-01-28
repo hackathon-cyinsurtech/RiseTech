@@ -1,0 +1,42 @@
+[
+    {
+        "company": "atlantic",
+        "category": "camera",
+        "min_value": 0,
+        "max_value": 500,
+        "max_days": 365,
+        "price": 5
+    },
+    {
+        "company": "atlantic",
+        "category": "camera",
+        "min_value": 501,
+        "max_value": 1000,
+        "max_days": 365,
+        "price": 5.5
+    },
+    {
+        "company": "atlantic",
+        "category": "camera",
+        "min_value": 0,
+        "max_value": 1001,
+        "max_days": 3000,
+        "price": 6
+    },
+    {
+        "company": "eurolife",
+        "category": "camera",
+        "min_value": 0,
+        "max_value": 500,
+        "max_days": 365,
+        "price": 5
+    },
+    {
+        "company": "eurolife",
+        "category": "camera",
+        "min_value": 501,
+        "max_value": 3000,
+        "max_days": 365,
+        "price": 6
+    }
+]
